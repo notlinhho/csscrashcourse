@@ -10,7 +10,7 @@ body {
     color:#55555;
 
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight:normal;
     /* Same as above */
     font: normal 16px Arial, Helvetica, sans-serif;
@@ -33,11 +33,23 @@ a:active{
 }
 
 a:visited{
-    color:black;
+    
 }
 .container{
     width:80%;
     margin:auto;
+}
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background:red;
+    color:#fff
 }
 
 .box-1{
@@ -118,3 +130,15 @@ a:visited{
 .my-form label{
     display:block;
 }
+
+.my-form input[type="text"], my-form textarea{
+    padding: 8px;
+    width:100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border:1px solid #ccc;
+    padding:10px
+    box-sizing:border-box;
