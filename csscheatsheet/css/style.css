@@ -8,5 +8,16 @@ body {
     /* Same as above */
     font: normal 16px Arial, Helvetica, sans-serif;
 
-    line-height: .8em;
+    line-height: 1em;
+    margin:2;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.box-1{
+    background-color:skyblue;
+    color:black;
 }
