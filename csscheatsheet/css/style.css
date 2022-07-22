@@ -1,3 +1,10 @@
+/* * = applies to everything */
+
+*{
+    margin:0.8em;
+    padding:0;
+}
+
 body {
     background-color:#f4f4f4;
     color:#55555;
@@ -12,12 +19,102 @@ body {
     margin:2;
 }
 
+a{
+    text-decoration:none;
+    color:black solid;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:black;
+}
 .container{
     width:80%;
     margin:auto;
 }
 
 .box-1{
-    background-color:skyblue;
+    background-color:beige;
     color:black;
+
+    border-top: 5px violet solid; 
+    border-bottom:5px violet solid; 
+    border-right:5px violet solid; 
+    border-left:5px violet solid; 
+
+    /* Same as above */
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+
+    border: 5px violet solid;
+
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+
+    /* Same as above */
+    padding:20px;
+    margin-top:20px;
+    margin:20px 0;
+
+}
+
+.box-2{
+
+    border:3px dotted #ccc;
+    padding:20px;
+    margin:20px 0;
+
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:bold;
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul{
+    padding:0;
+    padding-left:20px;
+    list-style: square;
+    list-style:none;
+}
+
+.categories li{
+    padding-bottom:8px;
+    border-bottom:dotted 1px #333;
+    /*list-style-image:url('../images/check.png');
+    */
+}
+
+.my-form{
+    padding:20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom: 10px;
+}
+
+.my-form label{
+    display:block;
 }
